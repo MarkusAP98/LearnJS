@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="rps.css">
+    <title>rock paper sissor Game</title>
+</head>
+<body>
+    <h1>Rock paper sissor Game</h1>
+    <p id="computerChoice-el">Cumputer choice:</p>
+    <p id="your-el">your choice: </p>
+    <div>
+        <button 
+            class='button' onclick="choice()" id="rock-btn">
+            Rock
+        </button>
+
+        <button class='button' onclick="choice()"
+            id="paper-btn">
+            Paper
+        </button>
+
+        <button class='button' onclick="choice()"
+            id="scissor-btn">
+            Scissor
+        </button>
+    </div>
+    <h4 id="winner-el" onclick="theWinner()">Winner is</h4>
+
+    <script src="rps.js"></script>
+</body>
+</html>
