@@ -1,0 +1,102 @@
+body{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+    background-color: beige;
+}
+h1{
+    font-style: oblique;
+}
+h2 {
+    position: absolute;
+    top: 500px;
+    left: 390px;
+}
+#buttons{
+    position: absolute;
+    top: 600px;
+    left: 200px;
+}
+button {
+    position: relative;
+    font-size: 40px;
+    padding-top: 10px;
+    margin-top: 15px;
+}
+button:hover{
+    color: aquamarine;
+    cursor: pointer;
+}
+#hang-man {
+    position: absolute;
+    top: 50px;
+}
+.man{
+    border: solid black 2px;
+    position: absolute;
+    left: 450px;
+    top:200px;
+
+}
+#head{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    
+}
+#body{
+    height: 100px;
+    position: absolute;
+    top: 253px;
+    left:472px;
+
+}
+#right-arm {
+    height: 43px;
+    transform: rotate(-45deg);
+    position: absolute;
+    left:490px;
+    top: 270px;
+}
+#left-arm {
+    height: 43px;
+    transform: rotate(45deg);
+    position: absolute;
+    left: 455px;
+    top: 270px;
+}
+#right-leg {
+    height: 63px;
+    transform: rotate(-25deg);
+    position: absolute;
+    left: 485px;
+    top: 350px;
+}
+#left-leg {
+    height: 63px;
+    transform: rotate(25deg);
+    position: absolute;
+    left: 458px;
+    top: 350px;
+}
+#rope{
+    height: 50px;
+    position: absolute;
+    left: 473px;
+    top: 147px;
+}
+#pillar-1 {
+    height: 340px;
+    position: absolute;
+    left: 620px;
+    top: 127px;
+}
+#pillar-2 {
+    height: 150px;
+    transform: rotate(90deg);
+    position: absolute;
+    left: 543px;
+    top: 68px;
+}
