@@ -1,18 +1,11 @@
+var userInput = document.getElementById('userInput').value;
+const addBtn = document.getElementById('add-btn')
+const para = document.createElement('p')
+
+
+
 function add() {
-  let userInput = document.getElementById('userInput').value;
-  
-  if (userInput.trim() !== '') {
-    let listItem = document.createElement('li');
-    listItem.textContent = userInput;
-
-    let list = document.getElementById('myDiv-list');
-    list.appendChild(listItem);
-
-    document.getElementById('userInput').value = "";
-  }
-}
-
-function clear() {
-  let list = document.getElementById('myDiv-list');
-  list.innerHTML = "";
+  console.log(userInput);
+  para.textContent = userInput
+  document.body.querySelector('#myDiv-list').appendChild(para)
 }
