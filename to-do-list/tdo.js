@@ -17,5 +17,11 @@ const myDivList = document.getElementById('myDiv-list')
   myDivList.appendChild(para) 
   para.appendChild(doneBtn)
   userInput.value = ''
+  doneBtn.addEventListener('click', function() {
+    para.textContent = ''
+  })
 }
 
+function clearList() {
+  myDivList.innerHTML = ''
+}

@@ -23,7 +23,7 @@ body{
 }
 
 button{
-    font-size: 35px;
+    font-size: 45px;
     width: 120px;
     height:115px;
     margin: 5px
@@ -46,7 +46,12 @@ h1 {
     margin-bottom: 25px;
 
 }
-h2 {
+.inputNum {
     margin: 35px;
     font-size: 54px;
+    width: 250px;
+    position: absolute;
+    left: 30px;
+    top: 120px;
+
 }
