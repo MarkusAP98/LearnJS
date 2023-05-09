@@ -1,0 +1,9 @@
+body {
+    font-size: 25px;
+}
+
+.doneBtn {
+    background-color: aqua;
+    position: absolute;
+    left: 400px;
+}
