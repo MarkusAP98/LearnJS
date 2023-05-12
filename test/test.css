@@ -1,0 +1,19 @@
+body {
+    margin: 0px;
+    background-color: aqua;
+}
+.one {
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    position: relative;
+    left: 300px;
+}
+.two {
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    position: relative;
+    left: 50px;
+    z-index: -1;
+}

@@ -18,7 +18,6 @@ body {
     border-radius: 50% 50% 40% 40%; 
     border: solid black 7px;
     background-color: aliceblue;
-    transform: rotate(-3deg);
     border-bottom: none;
 }
 
@@ -89,4 +88,49 @@ body {
     top: -60px;
     transform: rotate(260deg);
     border-radius: 30% 30% 30% 30%;
+}
+
+.ear-left {
+    position: relative;
+    top: -600px;
+    left: 430px;
+    height: 500px;
+    width: 200px;
+    border: solid black 3px;
+    border-radius: 60% 60% 20% 80%;
+    background-color: aliceblue;
+    z-index: -1;
+    transform: rotate(-15deg);
+}
+
+.ear-left .ear {
+    height: 330px;
+    width: 100px;
+    border: solid black 3px;
+    border-radius: 60% 60% 20% 80%;
+    transform: rotate(10deg);
+    background-color: hotpink;
+    position: relative;
+}
+
+.ear-right {
+    position: relative;
+    right: 120px;
+    top: -80px;
+        height: 500px;
+        width: 200px;
+        border: solid black 3px;
+        border-radius: 60% 60% 20% 80%;
+        background-color: aliceblue;
+        z-index: -1;
+transform: rotate(10deg) scaleX(-1);
+}
+.ear-right .ear {
+    height: 330px;
+    width: 100px;
+    border: solid black 3px;
+    border-radius: 60% 60% 20% 80%;
+    transform: rotate(10deg);
+    background-color: hotpink;
+    position: relative; 
 }
