@@ -4,10 +4,11 @@ body {
     background-color: aqua;
     margin: 0px;
     padding: 0px;
-}
-.bunny {
     display: flex;
     justify-content: center;
+}
+.bunny {
+    
     position: relative;
     top: 40px;
     
@@ -23,7 +24,7 @@ body {
 
 .eyes {
     position: relative;
-    left: 60px;
+    left: 80px;
     top: 175px;
 
 }
@@ -49,7 +50,39 @@ body {
     position: relative;
     left: 240px;
     top: -60px;
+}
+.right-eyes .eyelight .line1 {
+    height: 20px;
+    border-right: solid black 3px;
+    position: relative;
+    left: -65px;
+    top:-28px;
+}
+.right-eyes .eyelight .line2 {
+    height: 25px;
+    border-right: solid black 3px; 
+    position: relative;
+        left: -75px;
+        top: -40px;
+    transform: rotate(-10deg);
+}
 
+.left-eyes .eyelight .line1 {
+    height: 20px;
+    border-right: solid black 3px;
+    position: relative;
+    left: -15px;
+    top: -30px;
+    transform: rotate(10deg);
+}
+
+.left-eyes .eyelight .line2 {
+    height: 25px;
+    border-right: solid black 3px;
+    position: relative;
+    left: -25px;
+    top: -40px;
+    transform: rotate(-10deg);
 }
 .nose {
     height: 20px;
@@ -58,15 +91,36 @@ body {
     border: solid black 6px;
     border-radius: 30% 30% 30% 30%;
     position: relative;
-    left : 200px;
+    left : 220px;
     top: 120px;
+}
+.blush {
+    display: flex;
+}
+.blush1 {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: #FFCCD3;
+    position: relative;
+    left: 40px;
+    top: 40px;
+}
+.blush2 {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: #FFCCD3;
+    position: relative;
+        left: 240px;
+        top: 40px;
 }
 .mouth-line1 {
     height: 30px;
     width: 0px;
     border-left: solid black 3px;
     position: relative;
-    left: 221px;
+    left: 241px;
     top: 120px;
 }
 .mouth-line2 {
@@ -88,6 +142,32 @@ body {
     top: -60px;
     transform: rotate(260deg);
     border-radius: 30% 30% 30% 30%;
+}
+.string {
+    position: relative;
+    right: 100px;
+}
+.string2 {
+    transform: scaleX(-1);
+    position: relative;
+    left: 100px;
+}
+.blushline1{
+    width: 200px;
+    border-bottom: solid black 4px;
+    transform: rotate(10deg);
+    
+}
+.blushline2 {
+    width: 200px;
+    border-bottom: solid black 4px;
+    padding-top: 30px;
+}
+.blushline3 {
+    width: 200px;
+    border-bottom: solid black 4px;
+    padding-top: 30px;
+    transform: rotate(-10deg);
 }
 
 .ear-left {
@@ -133,4 +213,43 @@ transform: rotate(10deg) scaleX(-1);
     transform: rotate(10deg);
     background-color: hotpink;
     position: relative; 
+}
+.body {
+    height: 500px;
+    width: 500px;
+    background-color: aliceblue;
+    position: relative;
+    top: -50px;
+    left: 5px;
+    z-index: -1;
+    border-radius: 70% 70% 50% 50%;
+    border: solid black 3px;
+}
+.hands {
+    display: flex;
+    position: relative;
+    top: 30px;
+}
+.hand-right {
+    height: 120px;
+    width: 130px;
+    border: solid black 3px;
+    background-color: aliceblue;
+    border-radius: 0% 50% 50% 0%;
+    border-left: none;
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+.hand-left {
+    height: 120px;
+    width: 130px;
+    border: solid black 3px;
+    background-color: aliceblue;
+    border-radius: 0% 50% 50% 0%;
+    border-left: none;
+    position: relative;
+    top: 100px;
+    left: 130px;
+    transform: scaleX(-1);
 }
